@@ -109,8 +109,8 @@ export function EmpresasKpisGrid({ empresas, dataInicio, dataFim }: Props) {
             <div className="rounded-xl border border-neutral-800 overflow-hidden">
                 <div className="overflow-auto max-h-[calc(100vh-220px)]">
                     <table className="w-full text-sm">
-                        <thead>
-                            <tr className="border-b border-neutral-800 bg-neutral-900/80">
+                        <thead className="sticky top-0 z-10">
+                            <tr className="border-b border-neutral-800 bg-neutral-900">
                                 <th className="text-left px-5 py-3 text-xs font-semibold text-neutral-500 uppercase tracking-wider">
                                     Empresa
                                 </th>
